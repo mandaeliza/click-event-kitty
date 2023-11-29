@@ -5,5 +5,10 @@ var cat = document.querySelector(".cat");
 
 button.addEventListener("click", function (){
     // console.log("it's working");
-    cat.classList.add("show");
+    // cat.classList.add("show");
+    if (cat.classList.contains("show")) {
+        console.log("yes");
+    } else {
+        console.log("no");
+    }
 })
