@@ -7,8 +7,10 @@ button.addEventListener("click", function (){
     // console.log("it's working");
     // cat.classList.add("show");
     if (cat.classList.contains("show")) {
-        console.log("yes");
+        // console.log("yes");
+        cat.classList.remove("show");
     } else {
-        console.log("no");
+        // console.log("no");
+        cat.classList.add("show");
     }
 })
